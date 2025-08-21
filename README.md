@@ -30,4 +30,4 @@ It uses the `https://brightsky.dev/docs/#/` API to get the information.
 
 
 ## FAQ
-Where to find Logs when using Claude as clients: `/Users/mklaasse/Library/Logs/Claude`
+Where to find Logs when using Claude as clients: `~/Library/Logs/Claude`
