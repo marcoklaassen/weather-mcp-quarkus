@@ -15,7 +15,7 @@ import jakarta.ws.rs.QueryParam;
  */
 @RegisterRestClient(baseUri = "https://api.brightsky.dev")
 public interface WeatherClient {
-    
+
     @GET
     @Path("/current_weather")
     Forecast getForecast(@QueryParam("lat") double latitude, @QueryParam("lon") double longitude);
